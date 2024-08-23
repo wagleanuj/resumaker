@@ -1,8 +1,8 @@
-# jsoncv
+# jsoncv/resumaker
 
 A toolkit for building your CV with JSON and creating stylish HTML/PDF files.
 
-jsoncv comprises the following components:
+jsoncv/resumaker comprises the following components:
 1. Schema
 2. Editor
 3. CV HTML
@@ -15,7 +15,7 @@ For in-depth explanations and usage guidelines, please refer to the documentatio
 
 ### Schema
 
-jsoncv use [JSON Schema](https://json-schema.org/) to create JSON-based standard for CVs.
+jsoncv/resumaker use [JSON Schema](https://json-schema.org/) to create JSON-based standard for CVs.
 
 The schema used in jsoncv is a fork of the [JSON Resume Schema](https://jsonresume.org/schema/),
 with the following differences:
