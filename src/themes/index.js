@@ -10,10 +10,6 @@ const styleMoudules = import.meta.glob("./*/index.scss", { query: "?inline" });
 
 export const themes = {};
 
-themes["even"] = {
-  template: await import("./flat/index.cjs"),
-  styleModule: await import(`./reorx/index.scss`),
-};
 
 const themeNames = ["reorx"];
 
